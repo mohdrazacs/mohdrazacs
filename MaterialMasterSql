@@ -1,0 +1,143 @@
+-- Table: pricing_tool.yv_material_master_all_views_e_mara
+
+-- DROP TABLE IF EXISTS pricing_tool.yv_material_master_all_views_e_mara;
+
+CREATE TABLE IF NOT EXISTS pricing_tool.yv_material_master_all_views_e_mara
+(
+    id bigint NOT NULL,
+    bism integer,
+    brgew character varying(255) COLLATE pg_catalog."default",
+    ersda character varying(255) COLLATE pg_catalog."default",
+    ferth character varying(255) COLLATE pg_catalog."default",
+    groes character varying(255) COLLATE pg_catalog."default",
+    laeda character varying(255) COLLATE pg_catalog."default",
+    maktx character varying(255) COLLATE pg_catalog."default",
+    matnr character varying(255) COLLATE pg_catalog."default",
+    meins character varying(255) COLLATE pg_catalog."default",
+    normt character varying(255) COLLATE pg_catalog."default",
+    ntgew character varying(255) COLLATE pg_catalog."default",
+    tragr character varying(255) COLLATE pg_catalog."default",
+    wrkst integer,
+    createddate timestamp without time zone,
+    is_active boolean,
+    modifieddate timestamp without time zone,
+    CONSTRAINT yv_material_master_all_views_e_mara_pkey PRIMARY KEY (id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS pricing_tool.yv_material_master_all_views_e_mara
+    OWNER to pricing_tool_admin;
+
+
+
+-- Table: pricing_tool.yv_material_master_all_views_e_marc
+
+-- DROP TABLE IF EXISTS pricing_tool.yv_material_master_all_views_e_marc;
+
+CREATE TABLE IF NOT EXISTS pricing_tool.yv_material_master_all_views_e_marc
+(
+    id bigint NOT NULL,
+    abfac character varying(255) COLLATE pg_catalog."default",
+    matnr character varying(255) COLLATE pg_catalog."default",
+    umrsl character varying(255) COLLATE pg_catalog."default",
+    uomgr character varying(255) COLLATE pg_catalog."default",
+    werks character varying(255) COLLATE pg_catalog."default",
+    createddate timestamp without time zone,
+    is_active boolean,
+    modifieddate timestamp without time zone,
+    CONSTRAINT yv_material_master_all_views_e_marc_pkey PRIMARY KEY (id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS pricing_tool.yv_material_master_all_views_e_marc
+    OWNER to pricing_tool_admin;
+
+
+
+--Third Table
+-- Table: pricing_tool.yv_material_master_all_views_e_marm
+
+-- DROP TABLE IF EXISTS pricing_tool.yv_material_master_all_views_e_marm;
+
+CREATE TABLE IF NOT EXISTS pricing_tool.yv_material_master_all_views_e_marm
+(
+    id bigint NOT NULL,
+    matnr character varying(255) COLLATE pg_catalog."default",
+    meinh character varying(255) COLLATE pg_catalog."default",
+    meins character varying(255) COLLATE pg_catalog."default",
+    seprtr character varying(255) COLLATE pg_catalog."default",
+    umren character varying(255) COLLATE pg_catalog."default",
+    umrez character varying(255) COLLATE pg_catalog."default",
+    createddate timestamp without time zone,
+    is_active boolean,
+    modifieddate timestamp without time zone,
+    mantr character varying(255) COLLATE pg_catalog."default",
+    CONSTRAINT yv_material_master_all_views_e_marm_pkey PRIMARY KEY (id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS pricing_tool.yv_material_master_all_views_e_marm
+    OWNER to pricing_tool_admin;
+
+
+--Fouth
+
+-- Table: pricing_tool.yv_material_master_all_views_e_mbew
+
+-- DROP TABLE IF EXISTS pricing_tool.yv_material_master_all_views_e_mbew;
+
+CREATE TABLE IF NOT EXISTS pricing_tool.yv_material_master_all_views_e_mbew
+(
+    id bigint NOT NULL,
+    bklas character varying(255) COLLATE pg_catalog."default",
+    bwkey character varying(255) COLLATE pg_catalog."default",
+    matnr character varying(255) COLLATE pg_catalog."default",
+    stprs character varying(255) COLLATE pg_catalog."default",
+    verpr character varying(255) COLLATE pg_catalog."default",
+    vprsv character varying(255) COLLATE pg_catalog."default",
+    createddate timestamp without time zone,
+    is_active boolean,
+    modifieddate timestamp without time zone,
+    CONSTRAINT yv_material_master_all_views_e_mbew_pkey PRIMARY KEY (id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS pricing_tool.yv_material_master_all_views_e_mbew
+    OWNER to pricing_tool_admin;
+
+
+--fifth
+
+-- Table: pricing_tool.yv_material_master_all_views_e_mvke
+
+-- DROP TABLE IF EXISTS pricing_tool.yv_material_master_all_views_e_mvke;
+
+CREATE TABLE IF NOT EXISTS pricing_tool.yv_material_master_all_views_e_mvke
+(
+    id bigint NOT NULL,
+    dwerk character varying(255) COLLATE pg_catalog."default",
+    kondm character varying(255) COLLATE pg_catalog."default",
+    kondmt character varying(255) COLLATE pg_catalog."default",
+    ktgrm character varying(255) COLLATE pg_catalog."default",
+    ktgrmt character varying(255) COLLATE pg_catalog."default",
+    matnr character varying(255) COLLATE pg_catalog."default",
+    mvgr1 character varying(255) COLLATE pg_catalog."default",
+    mvgr2 character varying(255) COLLATE pg_catalog."default",
+    mvgr3 character varying(255) COLLATE pg_catalog."default",
+    vkorg character varying(255) COLLATE pg_catalog."default",
+    vtweg character varying(255) COLLATE pg_catalog."default",
+    createddate timestamp without time zone,
+    is_active boolean,
+    modifieddate timestamp without time zone,
+    CONSTRAINT yv_material_master_all_views_e_mvke_pkey PRIMARY KEY (id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS pricing_tool.yv_material_master_all_views_e_mvke
+    OWNER to pricing_tool_admin;
+
